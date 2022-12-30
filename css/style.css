@@ -1,0 +1,56 @@
+/*-----------------HEADER-----------------*/
+
+.cabecalho {
+    background-color: #21232c;
+}
+
+#overheader {
+    background-color: #21232c;
+    width: 100%;
+}
+
+#logonav {
+    float: left;
+    width: 96px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+#nameid {
+    text-align: center;
+    padding-top: 24px;
+    color: #fff;
+}
+
+#buttonskali {
+    float: right;
+    width: 80px;
+    margin: 16px;
+}
+
+#navnav {
+    clear: both;
+    background-color: #21232c;
+    padding: 8px;
+}
+
+/*-----------------BODY-----------------*/
+body {
+    background-color: black;
+}
+
+#tagkali {
+    color: red;
+    padding: 8px;
+}
+
+#piscando {
+    color: #fff;
+    animation: blinker 0.75s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
