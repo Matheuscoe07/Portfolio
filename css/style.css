@@ -11,9 +11,9 @@
 
 #logonav {
     float: left;
-    width: 96px;
-    padding-top: 16px;
-    padding-left: 16px;
+    width: 80px;
+    margin-top: 16px;
+    margin-left: 16px;
 }
 
 #nameid {
@@ -39,6 +39,10 @@ body {
     background-color: black;
 }
 
+#centro {
+    margin-top: 10em;
+}
+
 #tagkali {
     color: red;
     padding: 8px;
@@ -53,4 +57,51 @@ body {
     50% {
         opacity: 0;
     }
+}
+
+#apresentacao {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+}
+
+#nomedesenhado {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vamosla {
+    margin-left: 47%;
+}
+
+/*-----------------SOBRE MIM-----------------*/
+
+/*-----------------EDUCAÇÃO-----------------*/
+#educacao {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    color: #FFFFFF;
+    padding: 24px;
+    padding-top: 8PX;
+}
+
+td {
+    padding: 16px;
+    vertical-align: top;
+}
+
+
+/*-----------------EXPERIÊNCIA-----------------*/
+
+/*-----------------PROJETOS-----------------*/
+
+/*-----------------CONTATO-----------------*/
+
+/*-----------------GERAL-----------------*/
+hr {
+    color: aliceblue;
 }
