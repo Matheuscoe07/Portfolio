@@ -86,7 +86,7 @@ body {
     font-family: "Ubuntu", "Arial", sans-serif;
     color: #FFFFFF;
     padding: 24px;
-    padding-top: 8PX;
+    padding-top: 8px;
 }
 
 td {
@@ -96,12 +96,26 @@ td {
 
 
 /*-----------------EXPERIÊNCIA-----------------*/
+#experiencia {
+    margin-left: -1080px;
+    margin-top: -1080px;
+}
+
+#expimg {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*-----------------PROJETOS-----------------*/
-
-/*-----------------CONTATO-----------------*/
 
 /*-----------------GERAL-----------------*/
 hr {
     color: aliceblue;
+}
+
+#texto {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    color: #FFFFFF;
 }
