@@ -85,13 +85,26 @@ body {
 #educacao {
     font-family: "Ubuntu", "Arial", sans-serif;
     color: #FFFFFF;
-    padding: 24px;
-    padding-top: 8px;
+    margin: 16px;
 }
 
-td {
-    padding: 16px;
-    vertical-align: top;
+#cursosgeral {
+    color: white;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cursos {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 24px;
+    display: block;
+    display: inline-block;
+    margin: 24px 18px;
+    vertical-align: text-top;
 }
 
 
