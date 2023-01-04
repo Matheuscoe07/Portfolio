@@ -80,6 +80,48 @@ body {
 }
 
 /*-----------------SOBRE MIM-----------------*/
+#intro {
+    margin: 24px;
+    font-size: 24px;
+}
+
+#dados {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#itens {
+    margin: 16px;
+}
+
+#icones {
+    margin-left: 16px;
+}
+
+#skillsgeral {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 24px;
+    display: block;
+    display: inline-block;
+    margin: 16px;
+    text-align: center;
+}
+
+#skills {
+    height: 100px;
+    width: 100px;
+    border: solid 1px #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#imgskills {
+    width: 50px;
+    margin: auto;
+}
 
 /*-----------------EDUCAÇÃO-----------------*/
 #educacao {
