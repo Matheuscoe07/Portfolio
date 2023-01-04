@@ -109,17 +109,67 @@ body {
 
 
 /*-----------------EXPERIÊNCIA-----------------*/
-#experiencia {
-    margin-left: -1080px;
-    margin-top: -1080px;
+#seta {
+    display: inline-block;
 }
 
+#triangulo {
+    border: solid white;
+    border-width: 0 8px 8px 0;
+    padding: 16px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin: 48px;
+}
+
+#linha {    
+    border-left: 8px solid white;
+    height: 47em;
+    margin-left: 64px;
+    margin-top: -90px;
+}
+
+#topico1 {
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -16px;
+    margin-top: 70px;
+}
+
+#topico2 {
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: -16px;
+    margin-top: 180px;
+}
+
+#experiencia {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 88px;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    color: #fff;
+    font-size: 100%;
+    padding: 0 16px;
+}
+
+#exp2 {
+    margin-top: 88px;
+}
+
+/*
 #expimg {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+*/
 
 /*-----------------PROJETOS-----------------*/
 #projetosgeral {
